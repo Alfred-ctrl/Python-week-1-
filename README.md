@@ -87,6 +87,23 @@ The abs() function returns the absolute value of the given number.
 
 number = -20
 
+OUTPUT:20
+
+CODE:
+
+sal=abs(int(input()))
+
+ans=abs(sal-500)/130
+
+k1=round(ans,2)
+
+k2=round(ans,2)+10
+
+print("weekdays",format(k2,'.2f'))
+
+print("weekend",format(k1,'.2f'))
+
 absolute_number = abs(number)
 
 print(absolute_number)
+
